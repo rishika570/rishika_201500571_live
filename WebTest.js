@@ -10,6 +10,7 @@ Student.innerText="[Rishika Singh]";
 roll.innerText="[201500571]";
 college.innerText="GLA University,Mathura";
 var Todaydate=new Date();
-var td=Todaydate.getDate()+'-'+Todaydate.getMonth() +'-'+Todaydate.getFullYear();
+var month=parseInt(Todaydate.getMonth())+1;
+var td=Todaydate.getDate()+'-'+month +'-'+Todaydate.getFullYear();
 date.innerText=td;
 }  
